@@ -1,0 +1,32 @@
+  ----------------------------------------------------------------------
+   procedure tabellen is
+      -------------------------------------------------------------------
+      procedure Tabellrad is
+	 
+      begin
+	 
+      end Tabellrad;
+      -------------------------------------------------------------------
+   begin
+      
+   end tabellen;
+   
+
+
+      Get(Maxpris);
+      while Maxpris <= Minpris loop
+	 Put("Maxvärdet är för lågt: ");
+	 Get(Maxpris);
+      end loop;
+      
+      Get(Steg);
+      while Steg <= 0.0 loop
+	 Put("Steget måste vara mer än 0: ");
+	 Get(Steg);
+      end loop;
+      
+      Get(Moms);
+      while (Moms <= 0.0) or (Moms > 100.0) loop
+	 Put("Momsen måste vara mer än 0 men mindre än 100: ");
+	 Get(Moms);
+      end loop;

@@ -1,0 +1,68 @@
+------------------------------------
+   procedure Ett is
+   begin
+      if N = 1 then
+	 Put_Line("+­­­­­+");
+	 Put_Line("|     |");
+	 Put_Line("|  *  |");
+	 Put_Line("+­­­­­+");
+	 else exit;
+      end if;
+      end Ett;
+-----------------------------------------
+      procedure Tva is
+      begin
+	 if N = 2 then
+	    Put_Line("+­­­­­+");
+	    Put_Line("| *   |");
+	    Put_Line("|   * |");
+	    Put_Line("+­­­­­+");
+	    else exit;
+	 end if;
+      end Tva;
+-------------------------------------------
+      procedure Tre is
+      begin
+	 if N = 3 then
+	    Put_Line("+­­­­­+");
+	    Put_Line("|*   *|");
+	    Put_Line("|  *  |");
+	    Put_Line("+­­­­­+");
+	    else exit;
+	 end if
+      end Tre;
+-----------------------------------------
+	 procedure Fyra is
+	 begin
+	    if N = 4 then
+	       Put_Line("+­­­­­+");
+	       Put_Line("| * * |");
+	       Put_Line("| * * |");
+	       Put_Line("+­­­­­+");
+	       else exit;
+	    end if;
+	 end Fyra;
+------------------------------------------
+	 procedure Fem is
+	 begin
+	    if N = 5 then
+	       Put_Line("+­­­­­+");
+	       Put_Line("|* * *|");
+	       Put_Line("| * * |");
+	       Put_Line("+­­­­­+");
+	       else exit;
+	    end if
+	 end Fem;
+-------------------------------------------
+	    procedure Sex is
+	    begin
+	       if N = 6 then
+		  Put_Line("+­­­­­+");
+		  Put_Line("|* * *|");
+		  Put_Line("|* * *|");
+		  Put_Line("+­­­­­+");
+	       else exit;
+	       end if;
+	    end Sex;
+-------------------------------------------
+ 

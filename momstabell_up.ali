@@ -1,0 +1,81 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK
+
+U momstabell_up%b	momstabell_up.adb	e4c1f84a NE OO SU IL KM
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-flteio.ads		20070406091342 e18a47a0
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D momstabell_up.adb	20181001163006 3d264a3e
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 13|1r6 1r29 2r6 2r23
+X 4 a-flteio.ads
+20K13*Float_Text_IO[9|45] 13|1w10 1r33
+X 8 a-textio.ads
+49K13*Text_IO 471e16 13|2w10 2r27
+166U14*New_Line 13|16s16 31s13 54s14 63s4 65s4 67s4 69s4
+242U14*Put 13|12s7 15s16 30s13 64s4 66s4
+X 9 a-tiflio.ads
+56U14*Get 13|13s7[4|20] 17s16[4|20] 32s13[4|20]
+67U14*Put 13|51s14[4|20] 52s14[4|20] 53s14[4|20]
+X 13 momstabell_up.adb
+6U11*momstabell_up 6b11 93l5 93t18
+8U14 Datainlasning 8b14 8<28 8>48 8>69 8>90 8>105 35l8 35t21 82s4 84s4 86s4
+. 88s4
+8f28 Nummer{float} 13m11 14r17 17m20 29r17 29r41 32m17
+8f48 MinGrans{float} 14r27 29r27
+8f69 MaxGrans{float} 29r50
+8s90 S{string} 12r11
+8s105 SF{string} 15r20 30r17
+40U14 Tabell 40b14 40>21 40>30 40>39 40>45 71l8 71t14 90s4
+40f21 Minpris{float} 68r15
+40f30 Maxpris{float} 68r24
+40f39 Moms{float} 68r33
+40f45 Steg{float} 55r36
+43U17 Tabelldata 43b17 43>28 43>41 43>50 58l11 58t21 68s4
+43f28 Minpris_old{float} 46r29
+43f41 Maxpris{float} 49r27 49r48
+43f50 Moms{float} 50r28
+45f10 F{float} 50m14 52r18 53r26
+46f10 Minpris{float} 49r17 49r38 50r19 51r18 53r18 55m14 55r26
+75f3 Minpris{float} 82m18 84r27 90r11
+76f3 Maxpris{float} 84m18 90r20
+77f3 Moms{float} 88m18 90r29
+78f3 Steg{float} 86m18 90r35
+

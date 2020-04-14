@@ -1,0 +1,89 @@
+with Ada.Float_Text_Io; use Ada.Float_Text_Io;
+with Ada.Text_Io; use Ada.Text_Io;
+
+
+
+Procedure momstabell_UP is
+-----------------------------------------------------------------------
+   procedure Datainlasning(Minpris : out Float; Maxpris : out Float; Moms : out Float; Steg : out Float) is
+      
+   begin
+      
+      Get(Minpris);
+      while Minpris <= 0.0 loop
+	 Put("Priset kan inte vara noll eller lägre:");
+	 Get(Minpris);
+      end loop;
+      
+      Get(Maxpris);
+      while Maxpris <= Minpris loop
+	 Put("Maxvärdet är för lågt: ");
+	 Get(Maxpris);
+      end loop;
+      
+      Get(Steg);
+      while Steg <= 0.0 loop
+	 Put("Steget måste vara mer än 0: ");
+	 Get(Steg);
+      end loop;
+      
+      Get(Moms);
+      while (Moms <= 0.0) or (Moms > 100.0) loop
+	 Put("Momsen måste vara mer än 0 men mindre än 100: ");
+	 Get(Moms);
+      end loop;
+      
+      
+   end Datainlasning;
+   ----------------------------------------------------------------------
+   ----------------------------------------------------------------------
+   procedure tabellen is
+      -------------------------------------------------------------------
+      procedure Tabellrad is
+	 
+      begin
+	 
+      end Tabellrad;
+      -------------------------------------------------------------------
+   begin
+      
+   end tabellen;
+   
+   
+   Minpris: Float;
+   Maxpris: Float;
+   Moms: Float;
+   Steg: Float;
+   F: Float; -- momsprocent
+   
+Begin
+    
+   Put("Första pris: ");
+   Datainlasning(Minpris);
+   
+   Put("Sista pris: ");
+   Datainlasning(Maxpris);
+   
+   Put("Steg: ");
+   Datainlasning(Steg);
+
+   Put("Momsprocent: ");
+   Datainlasning(Moms);
+  
+   New_Line;
+   
+   Put("=== Momstabell ===");
+   New_Line;
+   Put("Pris utan moms Moms Pris med moms");
+   New_Line;
+   
+   while Minpris < Maxpris or Minpris = Maxpris loop
+   F := Minpris*(Moms/100.0);
+   Put(Minpris, 6, 2, 0);
+   Put(F, 7, 2, 0);
+   Put(Minpris+F, 7, 2, 0);
+   New_Line;
+   Minpris := (Minpris + Steg);
+   end loop;
+  
+End momstabell_UP;

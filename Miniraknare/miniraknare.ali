@@ -1,0 +1,105 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK
+
+U miniraknare%b		miniraknare.adb		8d22eb29 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W nfakultet%b		nfakultet.adb		nfakultet.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-flteio.ads		20070406091342 e18a47a0
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D miniraknare.adb	20181001155505 3eee9965
+D nfakultet.adb		20181001155418 9c60499c
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r45 2r6 2r45 3r6 3r45
+X 4 a-flteio.ads
+20K13*Float_Text_IO[10|45] 15|2w10 2r49
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|45] 15|3w10 3r49
+X 9 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 1r49
+73I12*Field{integer}
+166U14*New_Line 15|69s7 131s7
+242U14*Put 15|67s7 73s10 77s10 82s10 87s10 89s10 94s10 99s10 101s10 107s10
+. 112s10 114s10 120s10 125s10 127s10
+263U14*Put_Line 15|59s4 61s7 62s7 63s7 64s7 65s7 66s7 133s4
+X 10 a-tiflio.ads
+56U14*Get 15|96s10[4|20] 108s10[4|20] 121s10[4|20] 122s10[4|20]
+67U14*Put 15|100s10[4|20] 102s10[4|20] 111s10[4|20] 115s10[4|20] 124s10[4|20]
+. 126s10[4|20] 128s10[4|20]
+69i7 Fore{9|73I12} 15|100r17[4|20] 102r33[4|20] 111r17[4|20] 115r32[4|20]
+. 124r17[4|20] 126r17[4|20] 128r31[4|20]
+70i7 Aft{9|73I12} 15|100r28[4|20] 102r43[4|20] 111r28[4|20] 115r43[4|20]
+. 124r28[4|20] 126r28[4|20] 128r42[4|20]
+71i7 Exp{9|73I12} 15|100r38[4|20] 102r53[4|20] 111r38[4|20] 115r53[4|20]
+. 124r38[4|20] 126r38[4|20] 128r52[4|20]
+X 11 a-tiinio.ads
+55U14*Get 15|68s7[5|18] 74s10[5|18] 83s10[5|18] 84s10[5|18] 95s10[5|18] 109s10[5|18]
+65U14*Put 15|76s10[5|18] 78s10[5|18] 86s10[5|18] 88s10[5|18] 90s10[5|18]
+. 98s10[5|18] 113s10[5|18]
+67i7 Width{9|73I12} 15|76r17[5|18] 78r28[5|18] 86r17[5|18] 88r17[5|18] 90r29[5|18]
+. 98r17[5|18] 113r17[5|18]
+X 15 miniraknare.adb
+6U11*Miniraknare 6b11 135l5 135t16
+9V13 Addition{integer} 9b13 9>22 9>38 16l8 16t16 90s14
+9i22 A{integer} 14r14
+9i38 B{integer} 14r16
+11i7 Tal{integer} 14m7 15r14
+18V13 AdditionFlyt{float} 18b13 18>26 18>41 27l8 27t20 102s14
+18i26 A{integer} 24r19
+18f41 X{float} 24r22
+20f7 Tal{float} 24m7 25r14
+30V13 FlytInteger{float} 30b13 30>25 30>39 39l8 39t19 115s14
+30f25 X{float} 36r13
+30i39 A{integer} 36r21
+32f7 Tal{float} 36m7 37r14
+41V13 AdderaFlyt{float} 41b13 41>24 41>37 50l8 50t18 128s14
+41f24 X{float} 47r13
+41f37 Y{float} 47r15
+43f7 Tal{float} 47m7 48r14
+55i4 Choice{integer} 68m11 70r17 72r10 81r13 93r13 106r13 119r13
+56i4 A{integer} 74m14 76r14 78r24 83m14 86r14 90r23 95m14 98r14 102r27 109m14
+. 113r14 115r28
+56i7 B{integer} 84m14 88r14 90r25
+57f4 X{float} 96m14 100r14 102r29 108m14 111r14 115r26 121m14 124r14 128r25
+57f7 Y{float} 122m14 126r14 128r27
+X 16 nfakultet.adb
+3V13*Nfakultet{integer} 15|4w6 78s14
+
